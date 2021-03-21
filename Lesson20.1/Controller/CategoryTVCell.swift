@@ -20,7 +20,6 @@ class CategoryTVCell: UITableViewCell
             for item in currentTask {
                 allTaskString += "\(item.name.firstCapitalized). "
             }
-            print(allTaskString)
             return allTaskString
         }
         

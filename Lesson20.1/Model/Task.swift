@@ -13,6 +13,10 @@ import RealmSwift
     dynamic var date = Date()
     dynamic var isComplete = false
     
+    dynamic var assignee: String?
+    dynamic var priority = 0
+    dynamic var progressMinutes = 0
+    
 /*
     //Обратная ссылка на пользователя. Это автоматически обновляется всякий раз, когда
     //эта задача добавляется в список задач пользователя или удаляется из него.
@@ -24,9 +28,9 @@ import RealmSwift
         return "\(name) \(note)"
     }
     
+/*
     //Вернуть список игнорируемых имен свойств
     //Все работает только в newNameTask залетает - "", во все игнорируемые свойства
-/*
     override static func ignoredProperties() -> [String]
     {
         return ["note", "name"]

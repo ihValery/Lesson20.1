@@ -66,6 +66,18 @@ class CategoryTVC: UITableViewController
          }
 */
         
+/*
+         
+        let tasks = realm.objects(Task.self)
+
+        let predicate = NSPredicate(format: "%K > %@ AND %K == %@", "progressMinutes", NSNumber(4), "name", "Тестовая")
+            //NSPredicate(format: "progressMinutes > 4 AND name == %@", "Тестовая")
+        print("Результаты поиска:")
+        print(tasks.filter(predicate))
+        print("__________________")
+*/
+        
+        
         //Realm уведомление
         notificationToken = category.observe { (changes) in
             switch changes {

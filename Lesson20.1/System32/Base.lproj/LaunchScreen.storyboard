@@ -25,9 +25,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eDL-47-kLo">
-                                <rect key="frame" x="212" y="739" width="170" height="60"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -35,13 +32,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0As-vb-6Fq" secondAttribute="trailing" id="4n6-0D-hy3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="XSG-xU-N7E" secondAttribute="bottom" constant="25" id="ETQ-D0-ttW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XSG-xU-N7E" secondAttribute="trailing" constant="65" id="R7n-hx-ZvV"/>
-                            <constraint firstItem="eDL-47-kLo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="212" id="UdI-mH-ME1"/>
                             <constraint firstAttribute="bottom" secondItem="0As-vb-6Fq" secondAttribute="bottom" id="aHI-uS-6ed"/>
                             <constraint firstItem="0As-vb-6Fq" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="koe-s3-CF1"/>
-                            <constraint firstItem="XSG-xU-N7E" firstAttribute="top" secondItem="eDL-47-kLo" secondAttribute="bottom" constant="8" symbolic="YES" id="mRC-7c-a1Q"/>
                             <constraint firstItem="XSG-xU-N7E" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="246" id="no9-wt-5L6"/>
                             <constraint firstItem="0As-vb-6Fq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oAS-6V-yEZ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eDL-47-kLo" secondAttribute="trailing" constant="32" id="vZx-PL-HXK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,7 +46,6 @@
     </scenes>
     <resources>
         <image name="backGroundWB2" width="1170" height="2532"/>
-        <image name="logo.png" width="170" height="60"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

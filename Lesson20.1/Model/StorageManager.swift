@@ -12,9 +12,6 @@ let config = Realm.Configuration(inMemoryIdentifier: identifier)
 let realm = try! Realm(configuration: config)
 */
 
-
-
-
 class StorageManager
 {
     static func saveCategory(_ category: Category)
